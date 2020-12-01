@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="434dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="137dp"
+            android:layout_height="243dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="173dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btn_signin"
+            app:backgroundTint="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#014D81"
+            android:textColor="#D9D9D9"
+            android:text="SIGN IN" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            app:backgroundTint="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D9D9D9"
+            android:textColor="#014D81"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP" />
+
+        <TextView
+            android:id="@+id/tv_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
